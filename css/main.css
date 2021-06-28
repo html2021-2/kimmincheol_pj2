@@ -1,8 +1,18 @@
 @charset "uft-8";
 
 #content{padding-top: 90px;}
-#content .controller{position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: #f00; width: 570px; height: 20px; z-index: 500;}
-.controller .swiper-auto-wrap button{position: absolute; right: 0; top: 0; font-size: 20px;}
+/* 본문1 */
+#mainVisual .controller{position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); width: 420px; height: 20px; z-index: 500;}
+#mainVisual .swiper-pagination-bullet{width: 90px;height: 10px;border-radius: 5px;margin-right: 10px;opacity: 0.3;}
+#mainVisual .swiper-pagination-bullet-active{background: rgba(0,0,0,.3);opacity: 1;}
+#mainVisual .swiper-pagination-bullet::after{content: "";display: block;height: 100%;border-radius: 5px;width: 0;background: #888;}
+#mainVisual .swiper-pagination-bullet-active::after{width: 100%;animation: pagination 5s  backwards;}
+#mainVisual .controller .swiper-auto-wrap button{position: absolute; right: 0; top: 0; font-size: 20px;}
+
+@keyframes pagination {
+  0%{width: 0;}
+  100%{width: 100%;}
+}
 
 /* 본문 2,3 공통 */
 .main_tab{padding: 100px 0;}

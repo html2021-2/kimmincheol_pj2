@@ -5,7 +5,7 @@ $(document).ready(function () {
       el: '.swiper-pagination',
     },
     autoplay: {
-      delay: 1000,
+      delay: 5000,
     },
     a11y: {
       firstSlideMessage: '첫번째 슬라이드',
