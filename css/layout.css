@@ -1,0 +1,36 @@
+@charset "uft-8";
+/* header */
+.header{position: fixed; top: 0; left: 0; width: 100%; background: #fff; z-index: 999;}
+.gnb{color: #4e3b3b;}
+
+#pcHeader{height: 90px;}
+#pcHeader .logo{left: 60px; top: 28px; width: 150px;}
+#pcHeader .util{right: 60px; top: 30px; }
+.util .search_open_btn, .util .members{font-size: 30px;}
+.util .search_open_btn{margin-right: 30px;}
+.util .search_close_btn{position: absolute; top: 30px; right: 120px;}
+.search_wrap{position: fixed; top: 90px; left: 0; width: 100%; padding: 100px 0 110px; background: #4d4db6; color: #fff; text-align: center; font-size: 30px; display: none;}
+.search_wrap form{display: inline-block; padding: 10px 10px; border-bottom: 2px solid #fff;}
+#searchText{width: 500px; font-size: 30px; line-height: 1.5; background: transparent; border: none;}
+#searchText::-webkit-input-placeholder {color:rgba(255,255,255,.5);}
+#searchText:-ms-input-placeholder {color:rgba(255,255,255,.5);}
+#searchText::placeholder {color:rgba(255,255,255,.5);}
+
+#pcGnb.on::after{content: ""; position: absolute; top: 90px; left: 0; width: 100%; height: 1px; background: #aaa;}
+#pcGnb .dep1{-webkit-justify-content:center; justify-content:center; text-align: center;}
+#pcGnb .dep1 > li{padding: 0 43px;}
+#pcGnb ul li a{display: block;}
+#pcGnb .dep1 > li > a{line-height: 90px; position: relative; font-size: 22px;}
+#pcGnb .dep1 > li > a::after{content: ""; position: absolute; bottom: 0; left: 50%; width: 0; height: 3px; background: #4d4db6; transform: translateX(-50%); transition: width 0.5s;}
+#pcGnb .dep1 > li.on > a::after{width: 100%;}
+#pcGnb .dep2{display: none; position: absolute; top: 90px; left: 0; width: 100%; background: #fff; font-size: 18px;}
+#pcGnb .dep2 p{margin-bottom: 18px; font-weight: 700;}
+#pcGnb .dep2 a{line-height: 2;}
+#pcGnb .dep2 > li{display: inline-block; vertical-align: top; padding: 35px 20px 80px;}
+#pcGnb .dep2 p, #pcGnb .dep3{text-align: left;}
+#pcGnb .dep3 a:hover, #pcGnb .dep3 a:focus{color: #4d4db6;}
+
+
+#mHeader{visibility: hidden; height: 50px;}
+
+/* footer */

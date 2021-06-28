@@ -1,0 +1,22 @@
+@charset "uft-8";
+
+#content{padding-top: 90px;}
+#content .controller{position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); background: #f00; width: 570px; height: 20px; z-index: 500;}
+.controller .swiper-auto-wrap button{position: absolute; right: 0; top: 0; font-size: 20px;}
+
+/* 본문 2,3 공통 */
+.main_tab{padding: 100px 0;}
+.product_tab{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content:center; justify-content:center; flex-wrap: wrap; margin: 0 100px;background: aqua;}
+.product_tab > *{width: 100%;}
+.product_tab ul{display: flex; justify-content: space-around;padding: 60px 0;}
+.product_tab ul li{ text-align: center; cursor: pointer;}
+.product_tab .tabpanel{position: relative;visibility: hidden;max-height: 0;background: pink;}
+.product_tab .tabpanel.active{visibility: visible;max-height: 1000px;}
+.product_tab .tabpanel{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex;justify-content: space-around;-webkit-align-items: center;align-items: center;}
+#moniter .product_tab .tabpanel{-webkit-flex-direction: row-reverse;flex-direction: row-reverse;}
+
+.product_tab img{width: 42%;}
+.product_tab .panel_txt{width: 35%;line-height: 45px; font-size: 18px;background: lightgray;text-align: center;padding: 20px 0;}
+.product_tab .panel_txt strong{display: block;font-size: 50px;color: #4e3b3b;margin-bottom: 30px;}
+.product_tab .panel_txt p{text-align: left;}
+.product_tab .panel_txt a{display: inline-block;border: 2px solid #bce0fd; margin: 20px; padding: 5px 30px;}

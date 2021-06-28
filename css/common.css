@@ -1,0 +1,62 @@
+@charset "utf-8";
+@font-face {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 400;
+  src: local("Noto Sans KR"),
+     url("../fonts/NotoSansKR-Regular.woff2") format("woff2"),
+     url("../fonts/NotoSansKR-Regular.woff") format("woff"),
+     url("../fonts/NotoSansKR-Regular.otf") format("opentype"),
+     url("../fonts/NotoSansKR-Regular.svg#NotoSansKR") format('svg');
+}
+@font-face {
+  font-family: NotoSansKR;
+  font-style: normal;
+  font-weight: 500;
+  src: local("Noto Sans KR"),
+  url("../fonts/NotoSansKR-Medium.eot") format("woff2"),
+  url("../fonts/NotoSansKR-Medium.woff") format("woff"),
+  url("../fonts/NotoSansKR-Medium.otf") format("opentype"),
+  url("../fonts/NotoSansKR-Medium.svg#NotoSansKR") format('svg');
+}
+@font-face {
+    font-family: NotoSansKR;
+    font-style: normal;
+    font-weight: 700;
+    src: local("Noto Sans KR"),
+    url("../fonts/NotoSansKR-Bold.eot") format("woff2"),
+    url("../fonts/NotoSansKR-Bold.woff") format("woff"),
+    url("../fonts/NotoSansKR-Bold.otf") format("opentype"),
+    url("../fonts/NotoSansKR-Bold.svg#NotoSansKR") format('svg');
+}
+body,h1,h2,h3,p,ul,button,form{margin: 0; padding: 0;}
+h1,h2,h3{font-size: 100%;}
+ul{list-style: none;}
+button,input{font-family: inherit; font-size: inherit; color: inherit; line-height: inherit;}
+button{border: none; background: none; cursor: pointer;}
+input[type="text"]{border: 1px solid #aaa;}
+img{vertical-align: top; max-width: 100%;}
+a:link, a:visited, a:hover, a:active{text-decoration: none; color: inherit;}
+header, nav, main, section, footer{display: block;}
+
+.f_l{float: left;}
+.f_r{float: right;}
+.p_r{position: relative;}
+.p_a{position: absolute;}
+.d_f{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex;}
+.clearfix::after{content: ""; display: block; clear: both;}
+.blind{width: 1px;height: 1px;overflow: hidden;border: none; position: absolute; clip: rect(1px,1px,1px,1px); clip-path: inset(50%);}
+.hidden{visibility: hidden;}
+
+body{font-family: NotoSansKR; font-size: 16px; color: #707070; line-height: 1;}
+
+#skip a{position: absolute; top: 0; left: -9999px; z-index: 1000;}
+#skip a:focus{left: 0; width: 100%; text-align: center; height: 50px; line-height: 50px; background:#4d4db6; color: #fff;}
+/* 
+-webkit-flex-direction:row; -moz-flex-direction:row; -ms-flex-direction:row; flex-direction:row;
+-webkit-flex-direction:column; -moz-flex-direction:column; -ms-flex-direction:column; flex-direction:column;
+.j_sb{-webkit-justify-content:space-between; justify-content:space-between;}
+.j_s{-webkit-justify-content:center; justify-content:center;}
+.a_i{-webkit-align-items:center; align-items: center;}
+*/
+
