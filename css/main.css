@@ -3,11 +3,11 @@
 #content{padding-top: 90px;}
 /* 본문1 */
 #mainVisual .controller{position: absolute; bottom: 20px; left: 50%; transform: translateX(-50%); width: 420px; height: 20px; z-index: 500;}
-#mainVisual .swiper-pagination-bullet{width: 90px;height: 10px;border-radius: 5px;margin-right: 10px;opacity: 0.3;}
-#mainVisual .swiper-pagination-bullet-active{background: rgba(0,0,0,.3);opacity: 1;}
-#mainVisual .swiper-pagination-bullet::after{content: "";display: block;height: 100%;border-radius: 5px;width: 0;background: #888;}
+#mainVisual .swiper-pagination-bullet{width: 90px;height: 10px;border-radius: 5px;margin-right: 10px;opacity: 1;background: #4d4db6;}
+#mainVisual .swiper-pagination-bullet-active{background: #4d4db6;opacity: 1;}
+#mainVisual .swiper-pagination-bullet::after{content: "";display: block;height: 100%;border-radius: 5px;width: 0;background: #bce0fd;}
 #mainVisual .swiper-pagination-bullet-active::after{width: 100%;animation: pagination 5s  backwards;}
-#mainVisual .controller .swiper-auto-wrap button{position: absolute; right: 0; top: 0; font-size: 20px;}
+#mainVisual .controller .swiper-auto-wrap button{position: absolute; right: 0; top: 0; font-size: 20px;color: #bce0fd;}
 
 @keyframes pagination {
   0%{width: 0;}
@@ -16,17 +16,17 @@
 
 /* 본문 2,3 공통 */
 .main_tab{padding: 100px 0;}
-.product_tab{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content:center; justify-content:center; flex-wrap: wrap; margin: 0 100px;background: aqua;}
+.product_tab{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content:center; justify-content:center; flex-wrap: wrap; margin: 0 100px;}
 .product_tab > *{width: 100%;}
 .product_tab ul{display: flex; justify-content: space-around;padding: 60px 0;}
 .product_tab ul li{ text-align: center; cursor: pointer;}
-.product_tab .tabpanel{position: relative;visibility: hidden;max-height: 0;background: pink;}
+.product_tab .tabpanel{position: relative;visibility: hidden;max-height: 0;}
 .product_tab .tabpanel.active{visibility: visible;max-height: 1000px;}
 .product_tab .tabpanel{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex;justify-content: space-around;-webkit-align-items: center;align-items: center;}
 #moniter .product_tab .tabpanel{-webkit-flex-direction: row-reverse;flex-direction: row-reverse;}
 
-.product_tab img{width: 42%;}
-.product_tab .panel_txt{width: 35%;line-height: 45px; font-size: 18px;background: lightgray;text-align: center;padding: 20px 0;}
+.product_tab .tabpanel img{width: 42%;}
+.product_tab .panel_txt{width: 35%;line-height: 45px; font-size: 18px;text-align: center;padding: 20px 0;}
 .product_tab .panel_txt strong{display: block;font-size: 50px;color: #4e3b3b;margin-bottom: 30px;}
 .product_tab .panel_txt p{text-align: left;}
 .product_tab .panel_txt a{display: inline-block;border: 2px solid #bce0fd; margin: 20px; padding: 5px 30px;}
