@@ -11,6 +11,9 @@
   <link rel="stylesheet" href="css/main.css">
   <link rel="stylesheet" href="css/xeicon.css">
   <link rel="stylesheet" href="css/swiper-bundle.css">
+  <link rel="shortcut icon" href="images/common/favicon.ico">
+  <link rel="icon" href="images/common/favicon.ico">
+  <link rel="icon" href="images/common/favicon.ico">
   <script src="js/jquery-1.12.4.min.js"></script>
   <script src="js/swiper-bundle.min.js"></script>
   <script src="js/common.js"></script>
@@ -48,7 +51,7 @@
             </button>
           </div>
         </div>
-        <a href="" class="members">
+        <a href="https://account.asus.com/loginform.aspx?skey=0622b9b827964d31a0bae08fa79d935e" class="members">
           <i class="xi-user"></i>
           <span class="blind">로그인</span>
         </a>
@@ -267,22 +270,42 @@
       <h1 class="logo">
         <a href=""><img src="images/common/logo.png" alt=""></a>
       </h1>
+      <div class="search">
+        <button type="submit" class="search_open_btn">
+          <i class="xi-search"></i>
+          <span class="blind">검색</span>
+        </button>
+        <div class="search_wrap">
+          <form action="index.html">
+            <label for="searchText" class="blind">검색어</label>
+            <input type="text" id="searchText" placeholder="검색어를 입력하세요.">
+            <button type="submit">
+              <i class="xi-search"></i>
+              <span class="blind">검색</span>
+            </button>
+          </form>
+          <button type="submit" class="search_close_btn">
+            <i class="xi-close"></i>
+            <span class="blind">검색 닫기</span>
+          </button>
+        </div>
+      </div>
       <button class="gnb_open_btn" type="button">
         <i class="xi-bars"></i>
         <span class="blind">전체메뉴열기</span>
       </button>
       <div class="mGnb_wrap">
-        <div class="gnb_top">
-          <img src="images/common/logo.png" alt="">
+        <div class="top">
+          <a href="" class="first"><img src="images/common/logo.png" alt="에이수스"></a>
         </div>
         <nav id="mGnb" class="gnb">
-          <ul>
+          <ul class="dep1">
             <li>
               <a href="">노트북</a>
-              <ul>
+              <ul class="dep2">
                 <li>
                   <a href="">노트북</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ProArt StudioBook</a></li>
                     <li><a href="">ZenBook</a></li>
                     <li><a href="">VivoBook</a></li>
@@ -293,7 +316,7 @@
                 </li>
                 <li>
                   <a href="">비즈니스 노트북</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ProArt StudioBook</a></li>
                     <li><a href="">ExpertBook</a></li>
                     <li><a href="">Chromebook</a></li>
@@ -301,7 +324,7 @@
                 </li>
                 <li>
                   <a href="">게이밍 노트북</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                   </ul>
@@ -310,10 +333,10 @@
             </li>
             <li>
               <a href="">데스크탑</a>
-              <ul>
+              <ul class="dep2">
                 <li>
                   <a href="">메인보드</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">PRIME</a></li>
                     <li><a href="">ProArt</a></li>
                     <li><a href="">Workstation</a></li>
@@ -328,7 +351,7 @@
                 </li>
                 <li>
                   <a href="">게이밍 케이스</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">게이밍 케이스 악세사리</a></li>
@@ -336,14 +359,14 @@
                 </li>
                 <li>
                   <a href="">쿨링</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="">외장 그래픽 독</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">XG-STATION-PRO</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">ROG XG STATION 2</a></li>
@@ -353,10 +376,10 @@
             </li>
             <li>
               <a href="">메인보드</a>
-              <ul>
+              <ul class="dep2">
                 <li>
                   <a href="">메인보드</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">PRIME</a></li>
                     <li><a href="">ProArt</a></li>
                     <li><a href="">Workstation</a></li>
@@ -371,7 +394,7 @@
                 </li>
                 <li>
                   <a href="">게이밍 케이스</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">게이밍 케이스 악세사리</a></li>
@@ -379,14 +402,14 @@
                 </li>
                 <li>
                   <a href="">쿨링</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="">외장 그래픽 독</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">XG-STATION-PRO</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">ROG XG STATION 2</a></li>
@@ -396,10 +419,10 @@
             </li>
             <li>
               <a href="">네트워크</a>
-              <ul>
+              <ul class="dep2">
                 <li>
                   <a href="">WiFi 6</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">WiFi Routers</a></li>
                     <li><a href="">Whole Home Mesh WiFi System</a></li>
                     <li><a href="">Wireless Adapters</a></li>
@@ -407,20 +430,20 @@
                 </li>
                 <li>
                   <a href="">메쉬 WiFi 시스템</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">AiMesh WiFi Routers and Systems</a></li>
                     <li><a href="">ZenWiFi WiFi Systems</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="">유/무선 어답터</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">Wireless Adapters</a></li>
                   </ul>
                 </li>
                 <li>
                   <a href="">서버</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">서버 메인보드</a></li>
                     <li><a href="">서버 악세사리</a></li>
                   </ul>
@@ -429,10 +452,10 @@
             </li>
             <li>
               <a href="">악세서리</a>
-              <ul>
+              <ul class="dep2">
                 <li>
                   <a href="">키보드</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">ASUS Keyboard</a></li>
@@ -441,7 +464,7 @@
                 </li>
                 <li>
                   <a href="">마우스</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">ASUS Mouse and Mouse Pad</a></li>
@@ -450,7 +473,7 @@
                 </li>
                 <li>
                   <a href="">헤드셋</a>
-                  <ul>
+                  <ul class="dep3">
                     <li><a href="">ROG</a></li>
                     <li><a href="">TUF Gaming</a></li>
                     <li><a href="">ASUS Headset and Audio</a></li>
@@ -461,7 +484,7 @@
             </li>
           </ul>
         </nav>
-        <button class="gnb_close_btn" type="button">
+        <button class="gnb_close_btn last" type="button">
           <i class="xi-close-min"></i>
           <span class="blind">전체메뉴닫기</span>
         </button>
@@ -505,82 +528,82 @@
         <h3 class="blind" id="notebookTitle">노트북</h3>
         <div class="product_tab">
           <ul role="tablist" aria-labelledby="notebookTitle">
-            <li role="tab" aria-controls="notebookTabpanel1" id="notebookTab1" class="tab first">
+            <li role="tab" aria-controls="tabpanel21" id="tab21" class="tab first">
               <span><img src="images/main/notebookTab1.png" alt=""></span>
               <p>ProArt StudioBook</p>
             </li>
-            <li role="tab" aria-controls="notebookTabpanel2" id="notebookTab2" class="tab">
+            <li role="tab" aria-controls="tabpanel22" id="tab22" class="tab">
               <span><img src="images/main/notebookTab2.png" alt=""></span>
               <p>ZenBook</p>
             </li>
-            <li role="tab" aria-controls="notebookTabpanel3" id="notebookTab3" class="tab">
+            <li role="tab" aria-controls="tabpanel23" id="tab23" class="tab">
               <span><img src="images/main/notebookTab3.png" alt=""></span>
               <p>VivoBook</p>
             </li>
-            <li role="tab" aria-controls="notebookTabpanel4" id="notebookTab4" class="tab">
+            <li role="tab" aria-controls="tabpanel24" id="tab24" class="tab">
               <span><img src="images/main/notebookTab4.png" alt=""></span>
               <p>ExpertBook</p>
             </li>
-            <li role="tab" aria-controls="notebookTabpanel5" id="notebookTab5" class="tab">
+            <li role="tab" aria-controls="tabpanel25" id="tab25" class="tab">
               <span><img src="images/main/notebookTab5.png" alt=""></span>
               <p>Chromebook</p>
             </li>
-            <li role="tab" aria-controls="notebookTabpanel6" id="notebookTab6" class="tab last">
+            <li role="tab" aria-controls="tabpanel26" id="tab26" class="tab last">
               <span><img src="images/main/notebookTab6.png" alt=""></span>
-              <p>Daily Laptop</p>
+              <p>DailyLaptop</p>
             </li>
           </ul>
-          <div role="tabpanel" aria-labelledby="notebookTab1" id="notebookTabpanel1" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab21" id="tabpanel21" class="tabpanel">
             <img src="images/main/notebook1.jpg" alt="...">
             <div class="panel_txt">
               <strong>ProArt StudioBook</strong>
               <p>ASUS ProArt StudioBook 시리즈는 크리에이터를 위한 고성능 CPU, NVIDIA® Quadro® GPU 및 고품질 디스플레이를 제공합니다.
-              <br>크리에이티브 전문가를 위한 ProArt StudioBook 에 대해 더 알아보세요.</p>
-              <a href="">MORE</a>
+                <br>크리에이티브 전문가를 위한 ProArt StudioBook 에 대해 더 알아보세요.</p>
+              <a href="https://www.asus.com/kr/Laptops/For-Home/ProArt-StudioBook/filter?Series=ProArt-StudioBook">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" aria-labelledby="notebookTab2" id="notebookTabpanel2" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab22" id="tabpanel22" class="tabpanel">
             <img src="images/main/notebook2.jpg" alt="...">
             <div class="panel_txt">
               <strong>ZenBook</strong>
               <p>ASUS ZenBook은 컴팩트하고 가벼운 고성능 노트북입니다.
-              <br>ZenBook Pro, Duo, S 및 Flip 시리즈는 엔터테인먼트, 크리에이티브 작업 및 일상 사용에 적합합니다.</p>
-              <a href="">MORE</a>
+                <br>ZenBook Pro, Duo, S 및 Flip 시리즈는 엔터테인먼트, 크리에이티브 작업 및 일상 사용에 적합합니다.</p>
+              <a href="https://www.asus.com/kr/Laptops/For-Home/ZenBook/filter?Series=ZenBook&SubSeries=ZenBook-Pro,ZenBook-Duo,ZenBook-S,ZenBook,ZenBook-Flip">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" aria-labelledby="notebookTab3" id="notebookTabpanel3" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab23" id="tabpanel23" class="tabpanel">
             <img src="images/main/notebook3.png" alt="...">
             <div class="panel_txt">
               <strong>VivoBook</strong>
               <p>컬러풀 비보북 시리즈는 고성능과 혁신적인 기능을 갖춘 ASUS 베스트셀링 노트북입니다.
-              <br>VivoBook Pro, S 및 Flip 시리즈는 학생, 엔터테인먼트 및 데일리용로 사용할 수 있습니다.</p>
-              <a href="">MORE</a>
+                <br>VivoBook Pro, S 및 Flip 시리즈는 학생, 엔터테인먼트 및 데일리용로 사용할 수 있습니다.</p>
+              <a href="https://www.asus.com/kr/Laptops/For-Home/VivoBook/filter?Series=VivoBook&SubSeries=VivoBook-Pro,VivoBook-S,VivoBook,VivoBook-Flip">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" aria-labelledby="notebookTab4" id="notebookTabpanel4" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab24" id="tabpanel24" class="tabpanel">
             <img src="images/main/notebook4.jpg" alt="...">
             <div class="panel_txt">
               <strong>ExpertBook</strong>
               <p>ASUS ExpertBook 시리즈는 고성능, 긴 배터리 수명 및 군사 등급 내구성 인증을 갖춘 ASUS 최고의 휴대용 노트북입니다.
-              <br>ExpertBook Premium, Advanced, Essential 시리즈는 비지니스 업무를 최적화합니다.</p>
-              <a href="">MORE</a>
+                <br>ExpertBook Premium, Advanced, Essential 시리즈는 비지니스 업무를 최적화합니다.</p>
+              <a href="https://www.asus.com/kr/Laptops/For-Home/ExpertBook/filter?Series=ExpertBook&SubSeries=ExpertBook-Premium,ExpertBook-Advanced,ExpertBook-Essential">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" aria-labelledby="notebookTab5" id="notebookTabpanel5" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab25" id="tabpanel25" class="tabpanel">
             <img src="images/main/notebook5.jpg" alt="...">
             <div class="panel_txt">
               <strong>Chromebook</strong>
               <p>ASUS 크롬북은 크롬OS 기반 노트북으로 하루 종일 지속되는 배터리 수명, 내장 보안, 사용 편의성 등을 제공합니다.
-              <br>ASUS 크롬북은 일과 업무용, 학생용, 일상 용도를 위한 최고의 노트북입니다.</p>
-              <a href="">MORE</a>
+                <br>ASUS 크롬북은 일과 업무용, 학생용, 일상 용도를 위한 최고의 노트북입니다.</p>
+              <a href="https://www.asus.com/kr/Laptops/For-Home/Chromebook/filter?Series=Chromebook&SubSeries=Chromebook,Chromebook-Flip">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" aria-labelledby="notebookTab6" id="notebookTabpanel6" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab26" id="tabpanel26" class="tabpanel">
             <img src="images/main/notebook6.jpg" alt="...">
             <div class="panel_txt">
               <strong>Daily Laptop</strong>
               <p>ASUS 노트북은 광범위한 사용 편의성, 다양한 색상 그리고, 모든 사용자에게 적합한 가격대를 제공합니다.</p>
-              <a href="">MORE</a>
+              <a href="https://www.asus.com/kr/Laptops/For-Home/Everyday-use/filter?Series=Everyday-use">MORE</a>
             </div>
           </div>
         </div>
@@ -589,83 +612,84 @@
         <h3 class="blind" id="moniterTitle">모니터</h3>
         <div class="product_tab">
           <ul role="tablist" aria-labelledby="moniterTitle">
-            <li role="tab" aria-controls="monitorTabpanel1" id="monitorTab1" class="tab first">
+            <li role="tab" aria-controls="tabpanel31" id="tab31" class="tab first">
               <span><img src="images/main/moniterTab1.png" alt=""></span>
               <p>Gaming</p>
             </li>
-            <li role="tab" aria-controls="monitorTabpanel2" id="monitorTab2" class="tab">
+            <li role="tab" aria-controls="tabpanel32" id="tab32" class="tab">
               <span><img src="images/main/moniterTab2.png" alt=""></span>
               <p>ROG</p>
             </li>
-            <li role="tab" aria-controls="monitorTabpanel3" id="monitorTab3" class="tab">
+            <li role="tab" aria-controls="tabpanel33" id="tab33" class="tab">
               <span><img src="images/main/moniterTab3.png" alt=""></span>
               <p>TUF Gaming</p>
             </li>
-            <li role="tab" aria-controls="monitorTabpanel4" id="monitorTab4" class="tab">
+            <li role="tab" aria-controls="tabpanel34" id="tab34" class="tab">
               <span><img src="images/main/moniterTab4.png" alt=""></span>
               <p>ProArt</p>
             </li>
-            <li role="tab" aria-controls="monitorTabpanel5" id="monitorTab5" class="tab">
+            <li role="tab" aria-controls="tabpanel35" id="tab35" class="tab">
               <span><img src="images/main/moniterTab5.png" alt=""></span>
               <p>ZenScreen</p>
             </li>
-            <li role="tab" aria-controls="monitorTabpanel6" id="monitorTab6" class="tab last">
+            <li role="tab" aria-controls="tabpanel36" id="tab36" class="tab last">
               <span><img src="images/main/moniterTab6.png" alt=""></span>
               <p>Eye Care</p>
             </li>
           </ul>
-          <div role="tabpanel" ari-labelledby="monitorTab1" id="monitorTabpanel1" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab31" id="tabpanel31" class="tabpanel">
             <img src="images/main/moniter1.png" alt="...">
             <div class="panel_txt">
               <strong>Gaming</strong>
-              <p>ASUS는 2012년 세계 최초의 소비자 게임 디스플레이인 144Hz에서 2년 후 Nvidia G-Sync 모니터 1440에 이르는 혁신적인 기술의 선두 주자로 계속 자리매김하고 있습니다.
-              <br>2020년에는 360Hz, 144Hz의 4K HDR을 탑재하고 화면 크기를 최대 65인치까지 보강하면서 120Hz의 리프레시 속도를 유지하고 있습니다.</p>
+              <p>ASUS는 2012년 세계 최초의 소비자 게임 디스플레이인 144Hz에서 2년 후 Nvidia G-Sync 모니터 1440에 이르는 혁신적인 기술의 선두 주자로 계속 자리매김하고
+                있습니다.
+                <br>2020년에는 360Hz, 144Hz의 4K HDR을 탑재하고 화면 크기를 최대 65인치까지 보강하면서 120Hz의 리프레시 속도를 유지하고 있습니다.</p>
               <a href="">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" ari-labelledby="monitorTab2" id="monitorTabpanel2" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab32" id="tabpanel32" class="tabpanel">
             <img src="images/main/moniter2.png" alt="...">
             <div class="panel_txt">
-              <strong>ROG - Republic of Gamers</strong>
+              <strong>ROG</strong>
               <p>ROG(Republic of Gamerers)는 전 세계 게이머들을 즐겁게 하고 흥분시키는 최첨단 게임 모니터를 개발한 10년 이상의 경험을 보유하고 있습니다.
-              <br>ROG Swift 시리즈는 수많은 판도를 바꾸는 혁신으로 가득 찬 기술입니다.</p>
+                <br>ROG Swift 시리즈는 수많은 판도를 바꾸는 혁신으로 가득 찬 기술입니다.</p>
               <a href="">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" ari-labelledby="monitorTab3" id="monitorTabpanel3" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab33" id="tabpanel33" class="tabpanel">
             <img src="images/main/moniter3.png" alt="...">
             <div class="panel_txt">
               <strong>TUF Gaming</strong>
               <p>TUF 게임 모니터는 경쟁력 있는 게이머들에게 가격 대비 효과적이며, 엄선된 고급 게임 기능 세트를 저렴한 가격에 제공합니다.
-              <br>완벽한 비주얼을 손에 넣어보세요!</p>
+                <br>완벽한 비주얼을 손에 넣어보세요!</p>
               <a href="">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" ari-labelledby="monitorTab4" id="monitorTabpanel4" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab34" id="tabpanel34" class="tabpanel">
             <img src="images/main/moniter4.png" alt="...">
             <div class="panel_txt">
               <strong>ProArt</strong>
               <p>ASUS ProArt 디스플레이 시리즈의 목표는 전 세계 크리에이터들의 상상력에 힘을 실어줄 수 있는 최첨단 기술을 제공하는 것이다.
-              <br>미니 LED 백라이트, OLED 디스플레이, ASUS 스마트 HDR 기술 등의 기능을 갖춘 ProArt 모니터는 명작을 만드는 솔루션입니다.</p>
+                <br>미니 LED 백라이트, OLED 디스플레이, ASUS 스마트 HDR 기술 등의 기능을 갖춘 ProArt 모니터는 명작을 만드는 솔루션입니다.</p>
               <a href="">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" ari-labelledby="monitorTab5" id="monitorTabpanel5" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab35" id="tabpanel35" class="tabpanel">
             <img src="images/main/moniter5.png" alt="...">
             <div class="panel_txt">
               <strong>ZenScreen</strong>
               <p>ZenScreen 휴대용 모니터는 이동 중에 생산성을 높이고 엔터테인먼트를 활성화하도록 설계되었습니다.
-              <br>컴팩트하고 다재다능한 이 제품은 어디에서나 설치가 쉽고 다양한 상황에서 사용할 수 있습니다.</p>
+                <br>컴팩트하고 다재다능한 이 제품은 어디에서나 설치가 쉽고 다양한 상황에서 사용할 수 있습니다.</p>
               <a href="">MORE</a>
             </div>
           </div>
-          <div role="tabpanel" ari-labelledby="monitorTab6" id="monitorTabpanel6" class="tabpanel">
+          <div role="tabpanel" aria-labelledby="tab36" id="tabpanel36" class="tabpanel">
             <img src="images/main/moniter6.png" alt="...">
             <div class="panel_txt">
               <strong>Eye Care</strong>
               <p>ASUS Eye Care 모니터는 대부분의 TüV 라인 플리커프리 및 로우블루라이트 인증을 받습니다.
-              <br>ASUS 로우 블루 라이트 모니터에는 OSD 메뉴가 있어 화면에서 네 가지 블루 라이트 필터 설정에 액세스할 수 있습니다.
-              <br>ASUS 플리커 프리 기술은 스마트 다이내믹 백라이트 조정을 사용하여 깜박임을 감소시켜 눈의 피로, 자극 및 긴장으로부터 사용자를 보호합니다.</p>
+                <br>ASUS 로우 블루 라이트 모니터에는 OSD 메뉴가 있어 화면에서 네 가지 블루 라이트 필터 설정에 액세스할 수 있습니다.
+                <br>ASUS 플리커 프리 기술은 스마트 다이내믹 백라이트 조정을 사용하여 깜박임을 감소시켜 눈의 피로, 자극 및 긴장으로부터 사용자를 보호합니다.</p>
               <a href="">MORE</a>
             </div>
           </div>
@@ -673,10 +697,16 @@
       </section>
       <section id="event">
         <h3 class="title">이벤트</h3>
-        <a href="">모두보기</a>
+        <a href="" class="all">모두보기 ></a>
         <ul>
-          <li>리뷰 남기고 에어팟 프로 받아가자!</li>
-          <li>ROG 마스터즈가 돌아왔습니다.</li>
+          <li>
+            <div class="img_box"><img src="images/main/asus_event1.jpg" alt=""></div>
+            <div class="e_txt_container"><span><a href="">리뷰 남기고 에어팟 프로 받아가자!</a></span></div>
+          </li>
+          <li>
+            <div class="img_box"><img src="images/main/asus_event2.jpg" alt=""></div>
+            <div class="e_txt_container"><span><a href="">ROG 마스터즈가 돌아왔습니다!</a></span></div>
+          </li>
         </ul>
       </section>
     </main>
@@ -689,7 +719,7 @@
               <a href="https://asusdesign.com/" target="_Blank" rel="">에이수스 디자인 센터</a>
             </li>
             <li>
-              <a href="https://www.asus.com/Microsite/commercial/ASUSPRO/" target="_Blank" rel="">에이수스프로</a>
+              <a href="https://www.asus.com/Microsite/commercial/ASUSPRO/" target="_Blank" rel="">에이수스 프로</a>
             </li>
             <li>
               <a href="">MB, VGA, LCD, GG &amp; etc</a>
@@ -706,7 +736,7 @@
             <li>
               <a href="https://www.asus.com/support/service-center-location" target="_Self" rel="">서비스 센터 정보</a>
             </li>
-            <li class="footerlinkItemx">
+            <li>
               <a href="https://account.asus.com/" target="_Self" rel="">제품 등록</a>
             </li>
             <li>
@@ -715,13 +745,13 @@
               </a>
             </li>
             <li>
-              <a href="https://www.asus.com/support/CallUs" target="_Self" rel="">에이수스 대표번호 1566-6868</a>
+              <a href="https://www.asus.com/support/CallUs" target="_Self" rel="">에이수스 대표번호<br>1566-6868</a>
             </li>
             <li>
               <a href="https://www.youtube.com/c/ASUSCSC" target="_Self" rel="">ASUS Support Videos</a>
             </li>
             <li>
-              <a href="https://www.asus.com/kr/support/MyASUS-deeplink/" target="_Self" rel="">MyASUS</a>
+              <a href="https://www.asus.com/kr/support/MyASUS-deeplink/" target="_Self" rel="">My ASUS</a>
             </li>
           </ul>
         </li>
@@ -736,21 +766,21 @@
         </li>
         <li>
           <h3>커뮤니티</h3>
-          <ul>
+          <ul class="sns">
             <li>
-              <a href="">
+              <a href="https://www.instagram.com/asus/">
                 <i class="xi-instagram"></i>
                 <span class="blind">인스타그램</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://www.youtube.com/user/asus">
                 <i class="xi-youtube"></i>
                 <span class="blind">유튜브</span>
               </a>
             </li>
             <li>
-              <a href="">
+              <a href="https://www.facebook.com/ASUS">
                 <i class="xi-facebook"></i>
                 <span class="blind">페이스북</span>
               </a>
@@ -758,6 +788,11 @@
           </ul>
         </li>
       </ul>
+      <div class="footer_last">
+        <a href="https://www.asus.com/kr/Terms_of_Use_Notice_Privacy_Policy/Official-Site">사용주의 약관</a>
+        <a href="https://www.asus.com/kr/Terms_of_Use_Notice_Privacy_Policy/Privacy_Policy/">개인 정보 처리 방침</a>
+        <p>&copy; 모든 권리는 ASUSTeK Computer Inc.에 속합니다.</p>
+      </div>
     </footer>
   </div>
 </body>

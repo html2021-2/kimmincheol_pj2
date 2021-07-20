@@ -35,9 +35,12 @@ ul{list-style: none;}
 button,input{font-family: inherit; font-size: inherit; color: inherit; line-height: inherit;}
 button{border: none; background: none; cursor: pointer;}
 input[type="text"]{border: 1px solid #aaa;}
-img{vertical-align: top; max-width: 100%;}
+img{vertical-align: top; max-width: 100%; max-height: 100%;}
+a{display: inline-block;}
 a:link, a:visited, a:hover, a:active{text-decoration: none; color: inherit;}
 header, nav, main, section, footer{display: block;}
+
+#wrap{width: 100%;}
 
 .f_l{float: left;}
 .f_r{float: right;}
