@@ -23,8 +23,7 @@
 }
 
 /* 본문 2,3 공통 */
-.product_tab{margin:100px;}
-.tab_wrap{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content:center; justify-content:center; flex-wrap: wrap;}
+.product_tab{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content:center; justify-content:center; flex-wrap: wrap; margin:100px 100px;}
 .product_tab .tabpanel{visibility: hidden; max-height: 0; overflow: hidden;}
 .product_tab .tabpanel.active{visibility: visible; max-height: 1000px;}
 .product_tab ul, .product_tab .tabpanel{width: 100%;}
@@ -58,24 +57,11 @@
     #event ul{width: 90%;}
 }
 @media screen and (max-width: 1080px){
-    #content{width: 100%; padding-top: 6.510vw;}
-
-    .product_tab{margin: 4vw 9.2592vw;}
-    .product_tab .tab_wrap{justify-content: flex-start;margin-right: -9.2592vw;margin-left: -9.2592vw;width: calc(100% + 18.5184vw);overflow-x: scroll;}
-    .product_tab ul{flex-shrink: 0;justify-content: flex-start; }
-    .product_tab ul li{width: 16.5%;}
-    .product_tab .tabpanel img, .product_tab .panel_txt{width: 50%;}
-    .product_tab .panel_txt{line-height: 4vw; font-size: 1.666vw;}
-    .product_tab .panel_txt strong{font-size: 4.5vw; padding-bottom: 2.7vw}
-
+    #content{width: 100%; padding-top: 70px;}
+    .main_tab {display: none;}
     #event{width: 100%;}
     #event h3, #event .all{display: none; overflow: hidden;}
     #event ul{display: -webkit-box; display: -moz-box; display: -webkit-flex; display: -ms-flexbox; display: flex; flex-direction: column; align-items: center;}
     
 }
-@media screen and (max-width: 767px){
-    .product_tab .tabpanel{flex-wrap: wrap;}
-    .product_tab .tabpanel img{width: 70%;}
-    .product_tab .panel_txt{width: 100%;line-height: 2; font-size: 16px;}
-    .product_tab .panel_txt strong{font-size: 25px; padding-bottom: 10px;}
-}
+
